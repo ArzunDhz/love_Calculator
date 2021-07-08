@@ -1,0 +1,66 @@
+
+
+
+
+:root{
+  ---primary-color:#DF5E5E;
+  font-family: 'Festive', cursive;
+  font-size: 16px;
+}
+
+
+
+
+body{
+background-color: #FDD2BF;
+}
+
+
+
+h1{
+  color: #DF5E5E;
+  text-align:center;
+  font-size: 10rem;
+}
+
+.your{
+  color: #DF5E5E;
+  font-size: 4rem;
+  position: relative;
+padding-left: 15%;
+
+}
+.another{
+  color: #DF5E5E;
+  font-size: 4rem;
+margin-left: 70%;
+position: relative;
+bottom:160px;
+}
+
+img{
+  margin-left: 45%;
+  position: relative;
+  bottom:23rem;
+}
+
+
+.percentage{
+
+  color: #DF5E5E;
+  font-size: 13rem;
+margin-left: 40%;
+position: relative;
+bottom:40rem;
+}
+
+.Remarks{
+  color: var(---primary-color);
+  font-size: 10rem;
+  text-align:center;
+  position: relative;
+  bottom:60rem;
+
+
+
+}
