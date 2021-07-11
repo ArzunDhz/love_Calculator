@@ -15,15 +15,15 @@ $("button").on("click",animate);
 
 function animate(){
   $(".enter").addClass("pressed")
-  setTimeout(function(){
-            $(".enter").removeClass('pressed');
-    }, 100);
+  
     onEnter();
 }
 
 function onEnter(){
 
-
+setTimeout(function(){
+            $(".enter").removeClass('pressed');
+    }, 100);
 
 
 
