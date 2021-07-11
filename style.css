@@ -9,58 +9,111 @@
 }
 
 
+body::-webkit-scrollbar{
+  width: 0.30rem;
+}
 
+body::-webkit-scrollbar-thumb{
+  background:var(---primary-color);
+}
+body::-webkit-scrollbar-track{
+  background: white;
+}
+
+
+.enter{
+ margin-left: 50%;
+}
 
 body{
-background-color: #FDD2BF;
+background-color: white;
 }
 
 
 
 h1{
-  color: #DF5E5E;
+  color: var(---primary-color);
   text-align:center;
   font-size: 10rem;
 }
 
-.your{
-  color: #DF5E5E;
+
+.l{
+  color: var(---primary-color);
   font-size: 4rem;
-  position: relative;
-padding-left: 15%;
+  padding: 5rem;
+  display: inline-block;
+}
+.your{
+  color: var(---primary-color);
+  font-size: 4rem;
+  padding-right: 5rem;
+
+display: inline-block;
+
 
 }
 .another{
-  color: #DF5E5E;
+  color: var(---primary-color);
   font-size: 4rem;
-margin-left: 70%;
-position: relative;
-bottom:160px;
+display: inline-block;
+  padding-left: 5rem;
 }
 
 img{
-  margin-left: 45%;
-  position: relative;
-  bottom:23rem;
+  display: block;
+margin-left: auto;
+margin-right: auto;
+width: 25%;
 }
 
 
 .percentage{
 
-  color: #DF5E5E;
+  color: var(---primary-color);
   font-size: 13rem;
-margin-left: 40%;
-position: relative;
-bottom:40rem;
+  text-align: center;
+  margin: 0;
+
 }
 
 .Remarks{
   color: var(---primary-color);
   font-size: 10rem;
   text-align:center;
+  margin: 0;
+
+}
+
+button{
+  border-radius: 2px;
+
+  background-color: var(---primary-color);
+  text-align: center;
   position: relative;
-  bottom:60rem;
+  right: 14rem;
+  text-decoration: none;
+  border: 3px solid black;
+
+
+letter-spacing: 5px;
 
 
 
+}
+
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+.lets{
+  color: white;
+  font-size: 4rem;
+    font-family: 'Festive', cursive;
+
+}
+
+.love{
+  text-align: center;
 }

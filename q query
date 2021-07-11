@@ -1,0 +1,11 @@
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+document.querySelectorAll("body,h1,different classes ")[0].setAttribute("src","diff source")         =====>           $(h1).attr("src","diff source")
+
+document.querySelectorAll(" classes ")[0].classList.add("new class")                  =====>            $("h1").addClass("pressed nextclass");   or      $("h1").removeClass("pressed");
+
+
+document.querySelectorAll("p")[0].innerHTML = a ;            ======>       $("h1").html("hellow mf")
