@@ -22,7 +22,9 @@ body::-webkit-scrollbar-track{
 
 
 .enter{
- margin-left: 50%;
+ position: relative;
+ top:15rem;
+ text-align: center;
 }
 
 body{
@@ -84,8 +86,7 @@ width: 25%;
   margin: 0;
 
 }
-
-button{
+.enter{
   border-radius: 2px;
 
   background-color: var(---primary-color);
